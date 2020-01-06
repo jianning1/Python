@@ -1,0 +1,15 @@
+# Exercise 8: Printing, Printing
+
+formatter = "{} {} {} {}"
+
+# Function: string variable.format()
+print(formatter.format(1, 2, 3, 4))
+print(formatter.format("one", "two", "three", "four"))
+print(formatter.format(True, False, False, True)) # True or False: binary variables, no need to put quotes
+print(formatter.format(formatter, formatter, formatter, formatter))
+print(formatter.format(
+    "Try your",
+    "Own text here",
+    "Maybe a poem",
+    "Or a song about fear"
+))
